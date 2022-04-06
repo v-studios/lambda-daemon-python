@@ -1,0 +1,10 @@
+service: lambda-with-daemon
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  app:
+    handler: app.handler
